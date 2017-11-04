@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "175982804848",
+    "firebase_url": "https://idli-b2961.firebaseio.com",
+    "project_id": "idli-b2961",
+    "storage_bucket": "idli-b2961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175982804848:android:8bbe34315bee65f8",
+        "android_client_info": {
+          "package_name": "com.sambaar.idli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175982804848-89rio5s92eal60gc7us5js9ln02rmcal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sambaar.idli",
+            "certificate_hash": "a824b5e1424b0b6a54ce58aa0328b4a82cc5f8e1"
+          }
+        },
+        {
+          "client_id": "175982804848-2g9sc0a3d7jbcb71fo0keg76uq6pbdu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMPOXquxrmnV9oeC-7NrYJsKP3zKP7lGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175982804848-2g9sc0a3d7jbcb71fo0keg76uq6pbdu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
