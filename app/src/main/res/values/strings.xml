@@ -8,4 +8,5 @@
 
     <!-- Icons -->
     <string name="return_to_today">Today</string>
+    <string name="title_activity_add_new_task">AddNewTaskActivity</string>
 </resources>

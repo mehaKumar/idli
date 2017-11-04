@@ -1,5 +1,6 @@
 package com.sambaar.idli;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -31,12 +32,12 @@ public class HomepageActivity extends AppCompatActivity
             Log.e(TAG, "Could not setDisplayShowTitleEnabled(false).", e);
         }
 
+        final Intent intent = new Intent(this, AddNewTaskActivity.class);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                startActivity(intent);
             }
         });
 
