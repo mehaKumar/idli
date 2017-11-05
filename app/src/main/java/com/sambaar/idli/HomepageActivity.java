@@ -14,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 
 public class HomepageActivity extends AppCompatActivity
@@ -33,12 +34,21 @@ public class HomepageActivity extends AppCompatActivity
             Log.e(TAG, "Could not setDisplayShowTitleEnabled(false).", e);
         }
 
-        final Intent intent = new Intent(this, AddNewTaskActivity.class);
+        final Intent addNewTaskIntent = new Intent(this, AddNewTaskActivity.class);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(intent);
+                startActivity(addNewTaskIntent);
+            }
+        });
+
+        final Intent sampleDetailsIntent = new Intent(this, TaskDetailsActivity.class);
+        Button sampleDetailsLauncherButton = (Button) findViewById(R.id.sample_details_launcher_button);
+        sampleDetailsLauncherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(sampleDetailsIntent);
             }
         });
 

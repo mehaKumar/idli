@@ -28,6 +28,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sambaar.idli.HomepageActivity" />
         </activity>
+        <activity
+            android:name=".TaskDetailsActivity"
+            android:label="@string/title_activity_task_details"
+            android:parentActivityName=".HomepageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sambaar.idli.HomepageActivity" />
+        </activity>
     </application>
 
 </manifest>
