@@ -8,8 +8,8 @@
 /captures
 .externalNativeBuild
 .idea/
-/.idea/modules.xml
-/.idea/vcs.xml
+.idea/modules.xml
+.idea/vcs.xml
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
