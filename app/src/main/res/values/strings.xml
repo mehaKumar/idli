@@ -13,6 +13,7 @@
     <string name="title_activity_task_details">TaskDetailsActivity</string>
     <string name="start_date_button">Start</string>
     <string name="end_date_button">End</string>
+    <string name="colors_button">color:</string>
 
     <!-- Task Details Activity -->
     <string name="task_details_return_description">Return to Homepage</string>
