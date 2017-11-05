@@ -9,4 +9,13 @@
     <!-- Icons -->
     <string name="return_to_today">Today</string>
     <string name="title_activity_add_new_task">AddNewTaskActivity</string>
+    <string name="title_activity_task_details">TaskDetailsActivity</string>
+
+    <!-- Task Details Activity -->
+    <string name="task_details_return_description">Return to Homepage</string>
+    <string name="task_details_edit_description">Edit this task</string>
+    <string name="task_details_title">Title</string>
+    <string name="task_details_dates">From Nov 1 to Nov 6</string>
+    <string name="task_details_urgency">and it\'s urgent!</string>
+    <string name="task_details_note">You can find the notes online in the resources section.</string>
 </resources>

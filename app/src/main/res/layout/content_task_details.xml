@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sambaar.idli.TaskDetailsActivity"
+    tools:showIn="@layout/activity_task_details">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_details_title"
+            android:fontFamily="sans-serif-black"
+            android:textSize="70sp"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_details_dates"
+            android:textSize="30sp"
+            android:textColor="@color/textColor"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_details_urgency"
+            android:textSize="30sp"
+            android:textColor="@color/textColor"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_details_note"
+            android:textSize="30sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageButton
+                android:id="@+id/task_details_return_button"
+                style="@style/NavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/task_details_return_description"
+                android:src="@drawable/ic_keyboard_backspace" />
+
+            <ImageButton
+                android:id="@+id/task_details_edit_button"
+                style="@style/NavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_build"
+                android:contentDescription="@string/task_details_edit_description"/>
+
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
