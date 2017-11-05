@@ -43,14 +43,14 @@ public class HomepageActivity extends AppCompatActivity
             }
         });
 
-        final Intent sampleDetailsIntent = new Intent(this, TaskDetailsActivity.class);
-        Button sampleDetailsLauncherButton = (Button) findViewById(R.id.sample_details_launcher_button);
-        sampleDetailsLauncherButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(sampleDetailsIntent);
-            }
-        });
+//        final Intent sampleDetailsIntent = new Intent(this, TaskDetailsActivity.class);
+//        Button sampleDetailsLauncherButton = (Button) findViewById(R.id.sample_details_launcher_button);
+//        sampleDetailsLauncherButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(sampleDetailsIntent);
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
